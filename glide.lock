@@ -339,7 +339,7 @@ imports:
 - name: gopkg.in/yaml.v2
   version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
 - name: k8s.io/api
-  version: cadaf100c0a3dd6b254f320d6d651df079ec8e0a
+  version: fe29995db37613b9c5b2a647544cf627bfa8d299
   subpackages:
   - admission/v1alpha1
   - admissionregistration/v1alpha1
@@ -368,11 +368,11 @@ imports:
   - storage/v1
   - storage/v1beta1
 - name: k8s.io/apiextensions-apiserver
-  version: a5bbfd114a9b122acd741c61d88c84812375d9e1
+  version: 89b2a556a65053a90552eaed26f810df4a266367
   subpackages:
   - pkg/features
 - name: k8s.io/apimachinery
-  version: 3b05bbfa0a45413bfa184edbf9af617e277962fb
+  version: 019ae5ada31de202164b118aee88ee2d14075c31
   subpackages:
   - pkg/api/equality
   - pkg/api/errors
@@ -428,7 +428,7 @@ imports:
   - third_party/forked/golang/netutil
   - third_party/forked/golang/reflect
 - name: k8s.io/apiserver
-  version: c1e53d745d0fe45bf7d5d44697e6eface25fceca
+  version: a35277792fddcf69f8cbbb8a9cb7727b23077409
   subpackages:
   - pkg/admission
   - pkg/apis/apiserver
@@ -443,7 +443,7 @@ imports:
   - pkg/util/feature
   - pkg/util/flag
 - name: k8s.io/client-go
-  version: 82aa063804cf055e16e8911250f888bc216e8b61
+  version: 35874c597fed17ca62cd197e516d7d5ff9a2958c
   subpackages:
   - discovery
   - discovery/fake
@@ -718,7 +718,7 @@ imports:
   - plugin/pkg/scheduler/util
   - staging/src/k8s.io/apimachinery/pkg/util/rand
 - name: k8s.io/metrics
-  version: 8efbc8e22d00b9c600afec5f1c14073fd2412fce
+  version: b0f5364407d443bf5ddcbf955ed046129aaa8842
   subpackages:
   - pkg/apis/metrics
   - pkg/apis/metrics/v1alpha1
