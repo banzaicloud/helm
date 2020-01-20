@@ -58,7 +58,7 @@ import (
 	cmdutil "k8s.io/kubectl/pkg/cmd/util"
 	"k8s.io/kubectl/pkg/validation"
 	"k8s.io/kubernetes/pkg/apis/core"
-	"k8s.io/kubernetes/pkg/kubectl/cmd/get"
+	"k8s.io/kubectl/pkg/cmd/get"
 )
 
 // MissingGetHeader is added to Get's output when a resource is not found.
